@@ -1320,6 +1320,7 @@ GameObject:
   - component: {fileID: 774698606}
   - component: {fileID: 774698607}
   - component: {fileID: 774698608}
+  - component: {fileID: 774698609}
   m_Layer: 5
   m_Name: Idle (32x32)_5
   m_TagString: Untagged
@@ -1423,6 +1424,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &774698609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774698605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2014a36dd9f03428226fc33a67cef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementRB
+  speed: 7
+  jumpForce: 5
+  groundCheck: {fileID: 0}
+  groundMask:
+    m_Bits: 0
+  rb: {fileID: 0}
+  input: {x: 0, y: 0, z: 0}
+  isGrounded: 0
 --- !u!1 &812172768
 GameObject:
   m_ObjectHideFlags: 0
